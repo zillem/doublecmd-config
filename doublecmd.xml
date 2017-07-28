@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <doublecmd DCVersion="0.7.4 beta" ConfigVersion="9">
   <Configuration Save="True" SortOrder="0">
@@ -1223,3 +1224,1555 @@
     <Presets/>
   </MultiRenamePresets>
 </doublecmd>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<doublecmd DCVersion="0.7.8 beta" ConfigVersion="9">
+  <Configuration Save="True" SortOrder="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+  </Configuration>
+  <Colors>
+    <FileFilters>
+      <Filter>
+        <Name>Pascal sources</Name>
+        <FileMasks>*.pas;*.pp</FileMasks>
+        <Color>32768</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Pascal binaries</Name>
+        <FileMasks>*.ppu;*.o;*.dcu</FileMasks>
+        <Color>16711680</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>PDF</Name>
+        <FileMasks>*.pdf</FileMasks>
+        <Color>16715263</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Excel</Name>
+        <FileMasks>*.xlsx</FileMasks>
+        <Color>53760</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Word</Name>
+        <FileMasks>*.docx</FileMasks>
+        <Color>16733529</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Archive</Name>
+        <FileMasks>*.zip;*.7z;*.rar;*.iso</FileMasks>
+        <Color>9568255</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Powerpoint</Name>
+        <FileMasks>*.pptx</FileMasks>
+        <Color>7446527</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Plain Text</Name>
+        <FileMasks>*.txt;*.tcl</FileMasks>
+        <Color>12632256</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Link</Name>
+        <FileMasks>*.lnk</FileMasks>
+        <Color>12040191</Color>
+        <Attributes/>
+      </Filter>
+      <Filter>
+        <Name>Visio</Name>
+        <FileMasks>*.vsd</FileMasks>
+        <Color>16755801</Color>
+        <Attributes/>
+      </Filter>
+    </FileFilters>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <UseFrameCursor>False</UseFrameCursor>
+    <Foreground>-2147483634</Foreground>
+    <Background>2105376</Background>
+    <Background2>592137</Background2>
+    <Cursor>-2147483622</Cursor>
+    <CursorText>-2147483634</CursorText>
+    <Mark>255</Mark>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInvertedSelection>False</UseInvertedSelection>
+    <UseInactiveSelColor>True</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <InactivePanelBrightness>34</InactivePanelBrightness>
+    <FreeSpaceIndicator>
+      <UseGradient>True</UseGradient>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+    </FreeSpaceIndicator>
+  </Colors>
+  <Toolbars>
+    <MainToolbar>
+      <Row>
+        <Command>
+          <ID>{005CD904-4B6C-4FF1-91D1-0A9A5BCBADC4}</ID>
+          <Icon>cm_refresh</Icon>
+          <Command>cm_Refresh</Command>
+        </Command>
+        <Command>
+          <ID>{F300210C-4859-4853-ADD8-D3BB4C58A1C4}</ID>
+          <Icon>cm_runterm</Icon>
+          <Command>cm_RunTerm</Command>
+        </Command>
+        <Command>
+          <ID>{B585A200-88F8-4469-BA25-FD31F517344B}</ID>
+          <Icon>cm_options</Icon>
+          <Command>cm_Options</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{51129412-1B54-4C38-9503-B695E74B6C51}</ID>
+          <Icon>cm_briefview</Icon>
+          <Command>cm_BriefView</Command>
+        </Command>
+        <Command>
+          <ID>{9A502BB1-360D-4C2B-B370-7F4D1544A9C2}</ID>
+          <Icon>cm_columnsview</Icon>
+          <Command>cm_ColumnsView</Command>
+        </Command>
+        <Command>
+          <ID>{20032E43-172D-4EE9-888E-34981E2835BF}</ID>
+          <Icon>cm_thumbnailsview</Icon>
+          <Command>cm_ThumbnailsView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{4038848D-F068-4FBC-A0D0-B4E2CFC66809}</ID>
+          <Icon>cm_flatview</Icon>
+          <Command>cm_FlatView</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{D284B6E7-A2A5-4769-AC66-79BFE3AB7428}</ID>
+          <Icon>cm_viewhistoryprev</Icon>
+          <Command>cm_ViewHistoryPrev</Command>
+        </Command>
+        <Command>
+          <ID>{2E681B13-87FE-48F9-B9D1-B6795C598A01}</ID>
+          <Icon>cm_viewhistorynext</Icon>
+          <Command>cm_ViewHistoryNext</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{5C697D0D-73E1-43D6-B282-81117B0D610A}</ID>
+          <Icon>cm_markplus</Icon>
+          <Command>cm_MarkPlus</Command>
+        </Command>
+        <Command>
+          <ID>{16A4ACBE-C2B2-46B6-AEAD-DF5C1DD05056}</ID>
+          <Icon>cm_markminus</Icon>
+          <Command>cm_MarkMinus</Command>
+        </Command>
+        <Command>
+          <ID>{08A512FC-AEEC-4C76-B68D-E5DC312D9E91}</ID>
+          <Icon>cm_markinvert</Icon>
+          <Command>cm_MarkInvert</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{70017478-C230-47E3-B16F-537D14452582}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{E1D24DDF-AB71-4B33-84E8-85E79C7CD3D0}</ID>
+          <Icon>cm_extractfiles</Icon>
+          <Command>cm_ExtractFiles</Command>
+        </Command>
+        <Separator/>
+        <Command>
+          <ID>{BAA65ACF-C07D-437D-9ABC-B24EDB5C4F10}</ID>
+          <Icon>cm_search</Icon>
+          <Command>cm_Search</Command>
+        </Command>
+        <Command>
+          <ID>{FE7EBD4A-5DA1-4658-AD94-385ED2F71211}</ID>
+          <Icon>cm_multirename</Icon>
+          <Command>cm_MultiRename</Command>
+        </Command>
+        <Command>
+          <ID>{D673F38D-DFD6-4650-9E1C-966EC8B765CD}</ID>
+          <Icon>cm_syncdirs</Icon>
+          <Command>cm_SyncDirs</Command>
+        </Command>
+        <Command>
+          <ID>{63858E23-A397-4A40-A2C9-4FE0A768F2B1}</ID>
+          <Icon>cm_copyfullnamestoclip</Icon>
+          <Command>cm_CopyFullNamesToClip</Command>
+        </Command>
+      </Row>
+    </MainToolbar>
+  </Toolbars>
+  <Tabs>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\werkbank\mstation\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\werkbank\</Path>
+                  <Path Filename="mmi_generator_3.0">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\mmi_generator_3.0\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie Amaliahaven">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="Gui">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="rapporten">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\</Path>
+                  <Path Filename="vsmexport">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\rapporten\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\rapporten\vsmexport\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\rapporten\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="simulator_1.2.1">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="simulatie_gui_3.4">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie Amaliahaven">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="Org">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Org\</Path>
+                  <Path Filename="Gui">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="werkbank">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="plugins">c:\Werkbank VPI 7.0 (12-2015)\werkbank\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\werkbank\plugins\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\werkbank\</Path>
+                  <Path Filename="simulator_1.2.1">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="simulator_1.2.1">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="bin">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\bin\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="simulatie_gui_3.4">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="simulatie_gui_3.4">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="simulator_1.2.1">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie Amaliahaven">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="simulator_1.2.1">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie Amaliahaven">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="Gui">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="VPI">c:\</Path>
+                  <Path Filename="..">c:\VPI\</Path>
+                  <Path Filename="VPI">c:\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>4</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="">C:\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">C:\Users\vanliw\Documents\Mijn Netwerk Documenten\Backups\</Path>
+                  <Path Filename="RA002781 - Vrijgave RIO - Documentenlijst.url">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="Backups">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="RailNED.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="RA003464 - Roosendaal - Essen.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="PW LINKS">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="RA002781 - Vrijgave RIO.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="RA002781 - Vrijgave RIO.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="cygdrive">C:\</Path>
+                  <Path Filename="1_PWmapnaam.exe">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="RL102016 - Eurolocking.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">C:\Users\vanliw\Desktop\Decla\</Path>
+                  <Path Filename="RL102016 - Eurolocking.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="Opleding SpoorBeveiliging.url">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">C:\Users\vanliw\.babun\</Path>
+                  <Path Filename="RL102 - Venti - Eurolocking.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="README.md">C:\Program Files\LynxConfig\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">C:\Program Files\LynxConfig\</Path>
+                  <Path Filename="RA002781 - Vrijgave RIO - SARIO Architectuur.lnk">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="..">d:\Downloads\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                  <Path Filename="">C:\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\PW LINKS\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+          <Options>1</Options>
+          <LockPath>g:\Mijn Netwerk Documenten\PW LINKS\</LockPath>
+          <Title>PW LINKS</Title>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">P:\algemeen\VPI\Safety Case documenten BART\</Path>
+                  <Path Filename="GRS-Sasib-Alstom manuals VPI">P:\algemeen\VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\GRS-Sasib-Alstom manuals VPI\</Path>
+                  <Path Filename="VPI - oud J VS VPI">P:\algemeen\VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\VPI - oud J VS VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\</Path>
+                  <Path Filename="VPI LVT">P:\algemeen\</Path>
+                  <Path Filename="_1 Wekbank diversen">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\_1 Wekbank diversen\</Path>
+                  <Path Filename="Amaliahaven RA004015">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="30 LVT">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="20 Ontwerp">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="01 ontwikkeling">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\01 ontwikkeling\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\</Path>
+                  <Path Filename="10 Input bestaande toestand">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\10 Input bestaande toestand\</Path>
+                  <Path Filename="20 Ontwerp">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="01 ontwikkeling">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\</Path>
+                  <Path Filename="in">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\01 ontwikkeling\</Path>
+                  <Path Filename="pdf">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\01 ontwikkeling\in\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\01 ontwikkeling\in\pdf\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\01 ontwikkeling\in\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\01 ontwikkeling\</Path>
+                  <Path Filename="01 ontwikkeling">P:\algemeen\VPI LVT\Amaliahaven RA004015\20 Ontwerp\</Path>
+                  <Path Filename="Downloads">d:\</Path>
+                  <Path Filename="id_kaart_WJvL.pdf">d:\Downloads\</Path>
+                  <Path Filename="..">P:\algemeen\Young Movares\Ledensectie\Studiereizen\Studiereiscommissie 2018\Financiën\</Path>
+                  <Path Filename="Techniek">P:\</Path>
+                  <Path Filename="VPITool">P:\Techniek\</Path>
+                  <Path Filename="algemeen">P:\</Path>
+                  <Path Filename="VPI">P:\algemeen\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\</Path>
+                  <Path Filename="VPI LVT">P:\algemeen\</Path>
+                  <Path Filename="Amaliahaven RA004015">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="30 LVT">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="Amaliahaven RA004015">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="">P:\algemeen\VPI LVT\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="SWID - ontwerp">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWID - ontwerp\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="SWID - ontwerp">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWID - ontwerp\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="Raildocs SWID Amaliahaven">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\Raildocs SWID Amaliahaven\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="compare">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\compare\</Path>
+                  <Path Filename="AMH1 VPI Bestaande situatie">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="Amh1">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\</Path>
+                  <Path Filename="in">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\in\</Path>
+                  <Path Filename="out">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\out\</Path>
+                  <Path Filename="in">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\in\</Path>
+                  <Path Filename="out">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\out\</Path>
+                  <Path Filename="in">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\in\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="Raildocs SWID Amaliahaven">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\Raildocs SWID Amaliahaven\</Path>
+                  <Path Filename="AMH1 VPI Bestaande situatie">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                  <Path Filename="SWOD - ontwerp">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - ontwerp\</Path>
+                  <Path Filename="Raildocs SWID Amaliahaven">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="001360237.PDF">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\Raildocs SWID Amaliahaven\</Path>
+                  <Path Filename="SWOD - dossier OBE OR">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\SWOD - dossier OBE OR\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="_1 Wekbank diversen">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\_1 Wekbank diversen\</Path>
+                  <Path Filename="backup">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\backup\</Path>
+                  <Path Filename="iVPI voorbeeld">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\iVPI voorbeeld\</Path>
+                  <Path Filename="Test werkbank 2015">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Test werkbank 2015\</Path>
+                  <Path Filename="Mijn ontvangen bestanden">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Mijn ontvangen bestanden\</Path>
+                  <Path Filename="_test kopieprogramma">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\_test kopieprogramma\</Path>
+                  <Path Filename="Amaliahaven RA004015">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="30 LVT">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="Gui">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\Gui\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\Amaliahaven RA004015\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="VPI">P:\algemeen\</Path>
+                  <Path Filename="Safety Case documenten BART">P:\algemeen\VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\Safety Case documenten BART\</Path>
+                  <Path Filename="GRS-Sasib-Alstom manuals VPI">P:\algemeen\VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\GRS-Sasib-Alstom manuals VPI\</Path>
+                  <Path Filename="VPI - oud J VS VPI">P:\algemeen\VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\VPI - oud J VS VPI\</Path>
+                  <Path Filename="..">P:\algemeen\VPI\</Path>
+                  <Path Filename="VPI LVT">P:\algemeen\</Path>
+                  <Path Filename="_1 Wekbank diversen">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\_1 Wekbank diversen\</Path>
+                  <Path Filename="_1 Wekbank diversen">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="Werkbank VPI 7.0 (12-2015)">C:\</Path>
+                  <Path Filename="simulatie_gui_3.4">C:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">C:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="simulator_1.2.1">C:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="bin">C:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="..">C:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\bin\</Path>
+                  <Path Filename="..">C:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="simulator_1.2.1">C:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="Werkbank">u:\</Path>
+                  <Path Filename="VPI">u:\Werkbank\</Path>
+                  <Path Filename="..">u:\Werkbank\VPI\</Path>
+                  <Path Filename="VPI">u:\Werkbank\</Path>
+                  <Path Filename="..">u:\Werkbank\VPI\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="out">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\out\</Path>
+                  <Path Filename="in">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\in\</Path>
+                  <Path Filename="out">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\out\</Path>
+                  <Path Filename="in">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\in\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\Amh1\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\</Path>
+                  <Path Filename="AMH1 VPI Bestaande situatie">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\AMH1 VPI Bestaande situatie\</Path>
+                  <Path Filename="AMH1 VPI Bestaande situatie">g:\Mijn Netwerk Documenten\RA004015 - Maasvlakte overweg Mekongweg\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\werkbank\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie Amaliahaven">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="Gui">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Gui\</Path>
+                  <Path Filename="Org">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\Org\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\01 Kopie van laatst beschikbare configuratie Amaliahaven\</Path>
+                  <Path Filename="simulatie_gui_3.4">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="simulator_1.2.1">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="bin">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\bin\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulator_1.2.1\</Path>
+                  <Path Filename="simulatie_gui_3.4">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="werkbank">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\werkbank\</Path>
+                  <Path Filename="mmi_generator_3.0">c:\Werkbank VPI 7.0 (12-2015)\</Path>
+                  <Path Filename="mmi_generator.exe">c:\Werkbank VPI 7.0 (12-2015)\mmi_generator_3.0\</Path>
+                  <Path Filename="..">c:\Werkbank VPI 7.0 (12-2015)\simulatie_gui_3.4\</Path>
+                  <Path Filename="VPI">c:\</Path>
+                  <Path Filename="..">c:\VPI\</Path>
+                  <Path Filename="git_real_slides.pdf">d:\Downloads\</Path>
+                  <Path Filename="RA004015 Amaliahaven">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="30 LVT">P:\algemeen\VPI LVT\RA004015 Amaliahaven\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="01 Kopie van laatst beschikbare configuratie">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\</Path>
+                  <Path Filename="Gui">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\01 Kopie van laatst beschikbare configuratie\Gui\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\01 Kopie van laatst beschikbare configuratie\</Path>
+                  <Path Filename="AMH1_v3-WJvLipzig-20180207">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\AMH1_v3-WJvLipzig-20180207\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\30 LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\</Path>
+                  <Path Filename="RA004015 Amaliahaven">P:\algemeen\VPI LVT\</Path>
+                  <Path Filename="..">P:\algemeen\VPI LVT\RA004015 Amaliahaven\</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+    <Options>50001</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+  </Tabs>
+  <MainWindow>
+    <Position>
+      <Maximized>False</Maximized>
+      <Splitter>50</Splitter>
+      <Left>2205</Left>
+      <Top>207</Top>
+      <Width>1367</Width>
+      <Height>914</Height>
+    </Position>
+  </MainWindow>
+  <Language>
+    <POFileName>doublecmd.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <RunInTerminalStayOpenCmd>"C:\Program Files\ConEmu\ConEmu64.exe"</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>/K {command}</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>"C:\Program Files\ConEmu\ConEmu64.exe"</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>/C {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>"C:\Program Files\ConEmu\ConEmu64.exe"</JustRunTerminal>
+    <JustRunTermParams>-Here [command]</JustRunTermParams>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+      </Selection>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>False</AutoFillColumns>
+    <AutoSizeColumn>0</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>dd-MM-yy hh:nn</DateTimeFormat>
+    <CutTextToColumnWidth>False</CutTextToColumnWidth>
+    <ShowSystemFiles>False</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList/>
+    <DriveBlackListUnmounted>True</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="False">
+      <Path>C:\Users\vanliw\AppData\Local\atom\Update.exe</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Fixedsys</Name>
+      <Size>14</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>Fixedsys</Name>
+      <Size>13</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <Log>
+      <Name>Fixedsys</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>default</Name>
+      <Size>16</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Fixedsys</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+  </Fonts>
+  <ToolTips>
+    <ShowToolTipMode>True</ShowToolTipMode>
+    <CustomFields/>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="True">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </ButtonBar>
+    <DriveBar1>True</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>True</DriveBarFlat>
+    <DrivesListButton Enabled="True">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>False</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>True</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>True</KeyButtons>
+    <InterfaceFlat>True</InterfaceFlat>
+    <DriveFreeSpace>True</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>False</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
+  </Layout>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>0</CaseSensitivity>
+      <NaturalSorting>False</NaturalSorting>
+      <SortFolderMode>0</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>2</UpdatedFilesPosition>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>2</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>1</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>2</NoModifier>
+        <Alt>0</Alt>
+        <CtrlAlt>3</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <HashBufferSize>8388608</HashBufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>False</ProcessComments>
+    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>True</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <OverwriteFolder>False</OverwriteFolder>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <AutoExtractOpenMask/>
+    <SearchDefaultTemplate/>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <SetPropertyError>0</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CheckFreeSpace>True</CheckFreeSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>False</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+      <ExcludeEmptyTemplateDirectories>True</ExcludeEmptyTemplateDirectories>
+    </Options>
+  </FileOperations>
+  <Log Enabled="False" LogFileWithDateInName="False">
+    <FileName>%DC_CONFIG_PATH%\doublecmd.log</FileName>
+    <Options>1023</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch>
+    <MatchBeginning>False</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>True</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>False</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>False</SpaceMovesDown>
+    <DirBrackets>True</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+  </Miscellaneous>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <AutoRefresh>
+    <Options>11</Options>
+    <ExcludeDirs>g:\</ExcludeDirs>
+    <Mode>1</Mode>
+  </AutoRefresh>
+  <Icons>
+    <ShowMode>3</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>16</Size>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <CustomDriveIcons>False</CustomDriveIcons>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+  </Icons>
+  <IgnoreList Enabled="True">
+    <IgnoreListFile>%DC_CONFIG_PATH%\ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList>
+    <HotDir Name="Documents" Path="C:\Users\vanliw\Documents\"/>
+    <HotDir Name="Desktop" Path="C:\Users\vanliw\Desktop\"/>
+    <HotDir Name="Downloads" Path="C:\Users\vanliw\Downloads\"/>
+    <HotDir Name="OneDrive - Movares" Path="C:\Users\vanliw\OneDrive - Movares\"/>
+    <HotDir Name="PW LINKS" Path="G:\Mijn Netwerk Documenten\PW LINKS\"/>
+    <HotDir Name="RailNED" Path="G:\Mijn Netwerk Documenten\RailNED\"/>
+    <HotDir Name="Werkbank" Path="C:\Werkbank\"/>
+    <HotDir Name="Studiereiscommissie 2018" Path="P:\algemeen\Young Movares\Ledensectie\Studiereizen\Studiereiscommissie 2018\"/>
+    <HotDir Name="Studiereisommissie 2017" Path="P:\algemeen\Young Movares\Ledensectie\Studiereizen\Studiereisommissie 2017\"/>
+    <HotDir Name="PLC-IXL 803 02 TEST opstellingen" Path="p:\PWwork\Projecten\RL102\RL102004\Algemeen\_Alle Fasen\803 02 TEST opstellingen\"/>
+    <HotDir Name="Venti_Fase 2 (Proof of Concept)" Path="P:\PWwork\Projecten\RL102\RL102004\Algemeen\_Fase 2 (Proof of Concept)\"/>
+  </DirectoryHotList>
+  <Viewer>
+    <PreviewVisible>True</PreviewVisible>
+    <ImageStretch>False</ImageStretch>
+    <ImageStretchLargeOnly>True</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>Pen</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <ViewerMode>1</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+  </Viewer>
+  <Editor>
+    <EditWaitTime>2000</EditWaitTime>
+    <SynEditOptions>856075</SynEditOptions>
+  </Editor>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>False</FilterCopyRight>
+    <FilterEqual>False</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>False</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>False</FilterSingles>
+    <FileMask>*</FileMask>
+  </SyncDirs>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>True</ExpandedContextMenu>
+    <ExecuteViaShell>True</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+  </InternalAssociations>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>True</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{E0F0C9C2-1ED8-4162-867C-A9DDED83573E}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <Lua>
+    <PathToLibrary>lua5.1.dll</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <LastUsedPacker>zip</LastUsedPacker>
+  <UseShellForFileOperations>True</UseShellForFileOperations>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <SearchTemplates>
+    <Template>
+      <Name>*.pdf</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.pdf</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Ansi</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+    <Template>
+      <Name>*.docx</Name>
+      <StartPath/>
+      <ExcludeDirectories/>
+      <FilesMasks>*.docx</FilesMasks>
+      <ExcludeFiles/>
+      <SearchDepth>-1</SearchDepth>
+      <IsPartialNameSearch>True</IsPartialNameSearch>
+      <RegExp>False</RegExp>
+      <FollowSymLinks>False</FollowSymLinks>
+      <FindInArchives>False</FindInArchives>
+      <AttributesPattern/>
+      <IsDateFrom>False</IsDateFrom>
+      <IsDateTo>False</IsDateTo>
+      <IsTimeFrom>False</IsTimeFrom>
+      <IsTimeTo>False</IsTimeTo>
+      <IsNotOlderThan>False</IsNotOlderThan>
+      <IsFileSizeFrom>False</IsFileSizeFrom>
+      <IsFileSizeTo>False</IsFileSizeTo>
+      <FileSizeUnit>1</FileSizeUnit>
+      <IsFindText>False</IsFindText>
+      <IsReplaceText>False</IsReplaceText>
+      <CaseSensitive>False</CaseSensitive>
+      <NotContainingText>False</NotContainingText>
+      <TextRegExp>False</TextRegExp>
+      <TextEncoding>Ansi</TextEncoding>
+      <SearchPlugin/>
+      <ContentPlugins Enabled="False"/>
+    </Template>
+  </SearchTemplates>
+  <ColumnsSets DefaultTitleHash="540805403">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <CursorBorder Enabled="False">
+        <Color>-2147483635</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>434</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>66</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>74</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>179</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>100</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title/>
+          <FuncString/>
+          <Width>50</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title/>
+          <FuncString/>
+          <Width>50</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title/>
+          <FuncString/>
+          <Width>50</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>default</Name>
+            <Size>10</Size>
+            <Style>1</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>-2147483634</TextColor>
+          <Background>2105376</Background>
+          <Background2>592137</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483622</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>False</UseInvertedSelection>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <Plugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>7z</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
+        <Flags>212</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>arj</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cab</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cramfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>dmg</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>fat</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>hfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>iso</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lha</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzh</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>ntfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>squashfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>taz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>vhd</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>wim</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>85</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xar</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>z</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\deb\deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\rpm\rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\unrar\unrar.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>list</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\catalogmaker\CatalogMaker.wcx</Path>
+        <Flags>23</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>iso</ArchiveExt>
+        <Path>%COMMANDER_PATH%\plugins\wcx\iso_plugin\iso.wcx</Path>
+        <Flags>192</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%\plugins\wdx\deb_wdx\deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%\plugins\wdx\rpm_wdx\rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>xPDFSearch</Name>
+        <Path>%COMMANDER_PATH%\plugins\wdx\xpdfsearch_wdx\xPDFSearch.wdx</Path>
+        <DetectString>EXT="PDF"</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%\plugins\wfx\ftp\ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Secure FTP</Name>
+        <Path>%COMMANDER_PATH%\plugins\wfx\sftp\sftpplug.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Cloud</Name>
+        <Path>%COMMANDER_PATH%\plugins\wfx\cloudplugin\cloudplugin.wfx64</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>DiskInternals Reader</Name>
+        <Path>%COMMANDER_PATH%\plugins\wfx\Diskinternals\DiskInternals_Reader.wfx64</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>SVGView</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wlx_SVGView_1.2.7\SVGView.wlx</Path>
+        <DetectString>MULTIMEDIA &amp; ext="SVG"|ext="SVGZ"</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>AudioTagView</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wlx_AudioTagView_1.3.3.1\AudioTagView.wlx</Path>
+        <DetectString>MULTIMEDIA &amp; ext="MP3"|ext="WMA"|ext="FLAC"|ext="APE"|ext="OGG"|ext="M4A"|ext="M4R"|ext="M4B"</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="False">
+        <Name>EMLView</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wlx_EMLView_1.1.2.2\EMLView.wlx</Path>
+        <DetectString>ext="EML"</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>Office2007</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wlx_Office2007wlx_64_0.0.6.3\Office2007.wlx</Path>
+        <DetectString>ext="DOCX" | ext="PPTX" | ext="XLSX"| ext="PPSX"</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>SQLiteViewer</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wlx_SQLiteViewer_1.9.6.4\SQLiteViewer.wlx</Path>
+        <DetectString>MULTIMEDIA &amp; ext="DB" | ext="DB3" | ext="SQLITE" | ext="SQLITE3" | ext="FOSSIL"</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>pdfview</Name>
+        <Path>%COMMANDER_PATH%\plugins\wlx\wlx_pdfview_109\pdfview.wlx64</Path>
+        <DetectString>ext="PDF" | ext="PS" | ext="EPS" | ([0]="%" &amp; [1]="!" &amp; [2]="P" &amp; [3]="S") | ([0]="%" &amp; [1]="P" &amp; [2]="D" &amp; [3]="F" &amp; [4]="-")</DetectString>
+      </WlxPlugin>
+    </WlxPlugins>
+  </Plugins>
+  <MultiRenamePresets>
+    <LastPreset>Raildocs prefix</LastPreset>
+    <Presets>
+      <Preset>
+        <Name>pvt-0</Name>
+        <Filename>[N]</Filename>
+        <Extension>[E]</Extension>
+        <FilenameStyle>0</FilenameStyle>
+        <ExtensionStyle>0</ExtensionStyle>
+        <Find>pvt-</Find>
+        <Replace>pvt-0</Replace>
+        <RegExp>False</RegExp>
+        <UseSubs>False</UseSubs>
+        <Counter>1</Counter>
+        <Interval>1</Interval>
+        <Width>0</Width>
+        <Log>
+          <Enabled>False</Enabled>
+          <File>C:\Users\vanliw\Downloads\pvt_dowload\hazard_log\default.log</File>
+        </Log>
+      </Preset>
+      <Preset>
+        <Name>Empty</Name>
+        <Filename>[N]</Filename>
+        <Extension>[E]</Extension>
+        <FilenameStyle>0</FilenameStyle>
+        <ExtensionStyle>0</ExtensionStyle>
+        <Find/>
+        <Replace/>
+        <RegExp>False</RegExp>
+        <UseSubs>False</UseSubs>
+        <Counter>1</Counter>
+        <Interval>1</Interval>
+        <Width>0</Width>
+        <Log>
+          <Enabled>False</Enabled>
+          <File>C:\Users\vanliw\Downloads\pvt_dowload\hazard_log\default.log</File>
+        </Log>
+      </Preset>
+      <Preset>
+        <Name>pvt_h-0</Name>
+        <Filename>[N]</Filename>
+        <Extension>[E]</Extension>
+        <FilenameStyle>0</FilenameStyle>
+        <ExtensionStyle>0</ExtensionStyle>
+        <Find>pvt_h-</Find>
+        <Replace>pvt_h-0</Replace>
+        <RegExp>False</RegExp>
+        <UseSubs>False</UseSubs>
+        <Counter>1</Counter>
+        <Interval>1</Interval>
+        <Width>0</Width>
+        <Log>
+          <Enabled>False</Enabled>
+          <File>C:\Users\vanliw\Downloads\pvt_dowload\hazard_log\default.log</File>
+        </Log>
+      </Preset>
+      <Preset>
+        <Name>Raildocs prefix</Name>
+        <Filename>Raildocs - [N]</Filename>
+        <Extension>[E]</Extension>
+        <FilenameStyle>0</FilenameStyle>
+        <ExtensionStyle>0</ExtensionStyle>
+        <Find/>
+        <Replace/>
+        <RegExp>False</RegExp>
+        <UseSubs>False</UseSubs>
+        <Counter>1</Counter>
+        <Interval>1</Interval>
+        <Width>0</Width>
+        <Log>
+          <Enabled>False</Enabled>
+          <File>C:\Users\vanliw\Downloads\pvt_dowload\hazard_log\default.log</File>
+        </Log>
+      </Preset>
+    </Presets>
+  </MultiRenamePresets>
+</doublecmd>
+>>>>>>> Initial commit from my Z-book
