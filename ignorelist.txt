@@ -1,0 +1,4 @@
+Thumbs.db
+~$*
+.git
+desktop.ini

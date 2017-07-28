@@ -1,0 +1,61 @@
+--------------- 20-10-2016, 15:29:43 ---------------
+| DC v0.7.4 beta Rev. 7058M -- i386-Win32-win32/win64
+| Windows 7 SP1 x86_64
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0041FCAD in C:\Program Files\Double Commander\doublecmd.exe
+  $0041FD8E in C:\Program Files\Double Commander\doublecmd.exe
+  $00782FCF line 49, column 5 of filesources/uoperationthread.pas in C:\Program Files\Double Commander\doublecmd.exe
+  $0041F795 in C:\Program Files\Double Commander\doublecmd.exe
+  $004127EE in C:\Program Files\Double Commander\doublecmd.exe
+  $74D8336A in C:\WINDOWS\syswow64\kernel32.dll
+  $77109902 in C:\WINDOWS\SysWOW64\ntdll.dll
+  $771098D5 in C:\WINDOWS\SysWOW64\ntdll.dll
+
+
+--------------- 20-10-2016, 15:30:31 ---------------
+| DC v0.7.4 beta Rev. 7058M -- i386-Win32-win32/win64
+| Windows 7 SP1 x86_64
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0041FCAD in C:\Program Files\Double Commander\doublecmd.exe
+  $0041FD8E in C:\Program Files\Double Commander\doublecmd.exe
+  $00782FCF line 49, column 5 of filesources/uoperationthread.pas in C:\Program Files\Double Commander\doublecmd.exe
+  $0041F795 in C:\Program Files\Double Commander\doublecmd.exe
+  $004127EE in C:\Program Files\Double Commander\doublecmd.exe
+  $74D8336A in C:\WINDOWS\syswow64\kernel32.dll
+  $77109902 in C:\WINDOWS\SysWOW64\ntdll.dll
+  $771098D5 in C:\WINDOWS\SysWOW64\ntdll.dll
+
+
+--------------- 20-10-2016, 17:24:57 ---------------
+| DC v0.7.4 beta Rev. 7058M -- i386-Win32-win32/win64
+| Windows 7 SP1 x86_64
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $6C000000 in C:\Program Files\Double Commander\doublecmd.exe
+  $0044DA50 line 1113, column 3 of uglobs.pas in C:\Program Files\Double Commander\doublecmd.exe
+
+--------------- 13-12-2016, 11:38:17 ---------------
+| DC v0.7.4 beta Rev. 7058M -- i386-Win32-win32/win64
+| Windows 7 SP1 x86_64
+Unhandled exception: EFCreateError: Unable to create file "C:\Users\vanliw\AppData\Local\Temp\_dc~~~\Umlet\img\CfuContentFile.bin"
+  Stack trace:
+  $004195D1 in C:\Program Files\Double Commander\doublecmd.exe
+  $004194B0 in C:\Program Files\Double Commander\doublecmd.exe
+  $00419814 in C:\Program Files\Double Commander\doublecmd.exe
+  $0073C91A line 1066, column 53 of platform/uOleDragDrop.pas in C:\Program Files\Double Commander\doublecmd.exe
+  $0073CF01 line 1157, column 12 of platform/uOleDragDrop.pas in C:\Program Files\Double Commander\doublecmd.exe
+  $0073C17C line 886, column 32 of platform/uOleDragDrop.pas in C:\Program Files\Double Commander\doublecmd.exe
+  $74DF2D89 in C:\WINDOWS\syswow64\ole32.dll
+  $75B05A4A in C:\WINDOWS\syswow64\RPCRT4.dll
+  $75B805F1 in C:\WINDOWS\syswow64\RPCRT4.dll
+  $74DFE7E6 in C:\WINDOWS\syswow64\ole32.dll
+  $74DFE876 in C:\WINDOWS\syswow64\ole32.dll
+  $74DFEDD0 in C:\WINDOWS\syswow64\ole32.dll
+  $74D189EB in C:\WINDOWS\syswow64\ole32.dll
+  $74D188E0 in C:\WINDOWS\syswow64\ole32.dll
+  $74D194B2 in C:\WINDOWS\syswow64\ole32.dll
+  $74DFECCD in C:\WINDOWS\syswow64\ole32.dll
+  $74DFEB41 in C:\WINDOWS\syswow64\ole32.dll
+
