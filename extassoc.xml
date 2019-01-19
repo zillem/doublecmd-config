@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?>
-<doublecmd DCVersion="0.7.4 beta">
-  <ExtensionAssociation/>
-</doublecmd>
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<doublecmd DCVersion="0.7.8 beta">
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd DCVersion="0.8.4 beta">
   <ExtensionAssociation>
     <FileType>
       <Name>pdf</Name>
@@ -13,12 +7,16 @@
       <ExtensionList>pdf</ExtensionList>
       <Actions>
         <Action>
-          <Name>View</Name>
+          <Name>Edit</Name>
           <Command>C:\Program Files (x86)\Nuance\Power PDF\bin\NuancePDF.exe</Command>
+          <Params>%p</Params>
+        </Action>
+        <Action>
+          <Name>View</Name>
+          <Command>C:\Program Files\IrfanView\i_view64.exe</Command>
           <Params>%p</Params>
         </Action>
       </Actions>
     </FileType>
   </ExtensionAssociation>
 </doublecmd>
->>>>>>> Initial commit from my Z-book

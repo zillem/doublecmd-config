@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 Thumbs.db
 ~$*
 .git
 desktop.ini
-=======
-Thumbs.db
-~$*
-.git
-desktop.ini
->>>>>>> Initial commit from my Z-book
