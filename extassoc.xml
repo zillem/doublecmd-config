@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="0.8.4 beta">
+<doublecmd DCVersion="0.9.9 beta">
   <ExtensionAssociation>
     <FileType>
       <Name>pdf</Name>
@@ -8,7 +8,7 @@
       <Actions>
         <Action>
           <Name>Edit</Name>
-          <Command>C:\Program Files (x86)\Nuance\Power PDF\bin\NuancePDF.exe</Command>
+          <Command>C:\Program Files (x86)\Nuance\Power PDF 30\bin\NuancePDF.exe</Command>
           <Params>%p</Params>
         </Action>
         <Action>
